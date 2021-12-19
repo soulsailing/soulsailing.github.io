@@ -1,11 +1,11 @@
 {
-  "name": "tailwind_landing_nuxt",
+  "name": "soulsailing_landing_nuxt",
   "version": "1.0.0",
-  "description": "Tailwind Landing Page (Nuxt.js Version)",
+  "description": "Soulsailing landing page (Tailwind - Nuxt.js Version)",
   "author": {
-    "name": "Vanessa Böhner",
-    "email": "boehner.vanessa@gmail.com",
-    "url": "https://vannsl.io/"
+    "name": "Ivan Pesev",
+    "email": "barbaive@gmail.com",
+    "url": "https://github.com/soulsailing/soulsailing.github.io"
   },
   "private": true,
   "scripts": {
@@ -14,7 +14,8 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "test": "jest",
-    "test:dev": "jest --watch"
+    "test:dev": "jest --watch",
+    "deploy": "gh-pages -d dist --dotfiles"
   },
   "dependencies": {
     "nuxt": "^2.14.3",

@@ -1,4 +1,8 @@
 export default {
+  target: 'static',
+    router: {
+      base: '/soulsailing/soulsailing.github.io/'
+  },
   mode: 'universal',
   /*
    ** Headers of the page
