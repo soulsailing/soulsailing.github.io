@@ -19,6 +19,9 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
+#dist folder
+dist
+
 # nyc test coverage
 .nyc_output
 
@@ -85,3 +88,7 @@ sw.*
 
 # Vim swap files
 *.swp
+dist/
+dist/*
+/dist/200.html
+/dist/index.html
