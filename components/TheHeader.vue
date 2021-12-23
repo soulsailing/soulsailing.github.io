@@ -108,6 +108,7 @@ export default {
     this.scrollY = window.scrollY
     document.addEventListener('click', this.onClick)
     document.addEventListener('scroll', this.onScroll)
+    VueScrollTo.scrollTo(this.$refs.regForm, 1000, { easing: 'linear' })
   },
   beforeDestroy() {
     document.removeEventListener('click', this.onClick, true)

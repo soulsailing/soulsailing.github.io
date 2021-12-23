@@ -15,11 +15,21 @@
       Main Hero Message to sell yourself!
     </h3>
 
-    <button
-      class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
-    >
-      Action!
-    </button>
+    <form
+        action="https://formspree.io/f/mlezeloa"
+        method="POST"
+      >
+        <label>
+          Your email:
+          <input type="email" name="_replyto">
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+    </form>
   </section>
 </template>
 

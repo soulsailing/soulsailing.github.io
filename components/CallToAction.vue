@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div ref="leadSubmit">
     <img src="~assets/img/wave-top.svg?inline" alt />
     <call-to-action-content />
   </div>
